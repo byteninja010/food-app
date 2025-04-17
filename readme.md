@@ -46,13 +46,14 @@ This is a **frontend-only food delivery application** built entirely from scratc
 To run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/food-app
+git clone https://github.com/byteninja010/food-app
 cd food-app
 npm install
 npm start
 ```
+## 📂 Folder Structure
 
-#📂 Folder Structure
+```plaintext
 food-app/
 ├── assets/
 │   ├── home.png
@@ -73,7 +74,7 @@ food-app/
 ├── package.json
 ├── README.md
 └── .gitignore
-
+```
 ## 🐞 Known Issues
 
 - ❗ **CORS Restrictions**: Since the Swiggy API is unofficial and not designed for public access, direct API requests from the browser often get blocked by CORS. Use a browser extension (like CORS Unblocker) during development or set up a proxy server to bypass it.
